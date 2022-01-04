@@ -4,7 +4,7 @@ This repository contains the code and data for the paper:
 
 [Paper Link]
 
-Before getting started, make sure you have all required packages. Download dependencies using
+Before getting started, download dependencies using
 ```
 pip install -r requirements.txt
 ```
