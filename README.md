@@ -36,8 +36,7 @@ So the file name `FL_30_10_32_8e05_HoldoutPart1213.h5` means the FL model is tra
 
 To load any model, use
 ```
-cl_model = tf.keras.models.load_model('saved_models/CL_100_32_8e05_HoldoutPart0708.h5')
-fl_model = tf.keras.models.load_model('saved_models/FL_30_10_32_8e05_HoldoutPart0708.h5')
+new_model = tf.keras.models.load_model('saved_models/model_name.h5')
 ```
 ### Jupyter Notebooks
 Three notebooks are provided for demonstration purposes. The code is structured in a manner that a user can change the client composition before training.
