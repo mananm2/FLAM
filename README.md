@@ -15,7 +15,7 @@ The repository contains three main folders along with jupyter notebooks to demon
 ### Data
 The data used in the notebooks is in the `data` folder. The L-PBF images are in `data/Laser Powder Bed Fusion` where folders `0`, `1`, and `annotations` are for post-spreading images (.jpg and .tif), post-fusion images (.jpg and .tif), and the segmentation masks (.npy) respectively. The same logic follows for `data/Binder Jet`. The entire data from binder jetting is not provided; instead, only the cropped files and anotations used in the paper (Client 9) are provided. The code only uses .jpg file extensions.
 
-**Please note that this data was originally collected and compiled at Oak Ridge National Laboratory and is available [here](https://www.osti.gov/dataexplorer/biblio/dataset/1779073).** Please cite the [dataset](https://www.osti.gov/dataexplorer/biblio/dataset/1779073) (doi:10.13139/ORNLNCCS/1779073) and the [related work](https://www.sciencedirect.com/science/article/pii/S2214860420308253) appropriately if the data is used.
+**Note that this data was originally collected and compiled at Oak Ridge National Laboratory and is available [here](https://www.osti.gov/dataexplorer/biblio/dataset/1779073).** Please consider citing the [dataset](https://www.osti.gov/dataexplorer/biblio/dataset/1779073) (doi:10.13139/ORNLNCCS/1779073) and the [related work](https://www.sciencedirect.com/science/article/pii/S2214860420308253) appropriately if the data is used.
 
 ### Functions
 The functions used throughout the notebooks are provided in the `utils` folder. Function descriptions are provided below each declaration. Functions are grouped together into files based on usage, with 5 main files. The file and function names are self-explanatory.
