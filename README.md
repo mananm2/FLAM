@@ -47,5 +47,3 @@ Three notebooks are provided for demonstration purposes. The code is structured 
 `Centralized_learning.ipynb`: Demonstrates the learning prcedure and results for a CL model.
 
 `Comparisons.ipynb`: Reproduces the case study results from the paper using pre-trained models.
-
-`Fed_transfer_learning.ipynb`: Demonstrates the transfer learning scenario from the paper discussion.
