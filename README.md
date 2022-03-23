@@ -1,5 +1,4 @@
 # Federated Learning for Additive Manufacturing (FLAM)
-(The complete code will be made available once the paper is accepted)
 
 This repository contains the code and data for the paper:
 
