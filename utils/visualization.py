@@ -12,7 +12,8 @@ from utils.image_processing import *
 def visualize_results_testset(model, imageDictTest, segMaskDictTest, 
                               testClients, clientIdentifierDict):
     '''
-        
+    Result visualization for a model evaluated on testClients
+    
     '''
     testImages, testMasks = unwrap_client_data(imageDictTest, segMaskDictTest, testClients)
     curr_idx = 0
@@ -55,6 +56,8 @@ def visualize_results_testset(model, imageDictTest, segMaskDictTest,
 def compare_results_testset(cl_model, fl_model, imageDictTest, segMaskDictTest, 
                               testClients, clientIdentifierDict):
     '''
+    Result comparison between cl_model and fl_model on testClients
+    Generates the plots seen in the paper
     
     '''
     testImages, testMasks = unwrap_client_data(imageDictTest, segMaskDictTest, testClients)

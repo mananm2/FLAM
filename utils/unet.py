@@ -1,6 +1,10 @@
 import tensorflow as tf
 
-def initialize_unet():    
+def initialize_unet():
+    '''
+    Initialize and return a U-Net model
+    
+    '''
     inputs = tf.keras.layers.Input(shape = (128, 128, 2))
 
     conv0 = tf.keras.layers.Conv2D(32, 3, activation = 'relu', padding = 'same')(inputs)
