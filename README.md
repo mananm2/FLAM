@@ -13,7 +13,7 @@ pip install -r requirements.txt
 The repository contains three main folders along with jupyter notebooks to demonstrate the case studies in the paper. The notebooks and functions have sufficient comments to make the code self-explanatory. It is recommended to use [Google Colab](https://colab.research.google.com/?utm_source=scs-index) with [GPU acceleration](https://colab.research.google.com/notebooks/gpu.ipynb) if models need to be trained from scratch.
 
 ### Data
-The data used in the notebooks is in the `data` folder. The L-PBF images are in `data/Laser Powder Bed Fusion` where folders `0`, `1`, and `annotations` are for post-spreading images (.jpg and .tif), post-fusion images (.jpg and .tif), and the segmentation masks (.npy) respectively. The same logic follows for `data/Binder Jet`. The entire data from binder jetting is not provided; instead, only the cropped files and anotations used in the paper (Client 9) are provided. The code only uses .jpg file extensions.
+The data used in the notebooks is in the `data` folder. The L-PBF images are in `data/Laser Powder Bed Fusion` where folders `0`, `1`, and `annotations` are for post-spreading images (.jpg and .tif), post-fusion images (.jpg and .tif), and the segmentation masks (.npy) respectively. The code only uses .jpg file extensions.
 
 **Note that this data was originally collected and compiled at Oak Ridge National Laboratory and is available [here](https://www.osti.gov/dataexplorer/biblio/dataset/1779073).** Please consider citing the [dataset](https://www.osti.gov/dataexplorer/biblio/dataset/1779073) (doi:10.13139/ORNLNCCS/1779073) and the [related work](https://www.sciencedirect.com/science/article/pii/S2214860420308253) appropriately if the data is used.
 
