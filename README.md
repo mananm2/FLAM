@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the paper:
 
-[Paper Link]
+#### [Federated learning-based semantic segmentation for pixel-wise defect detection in additive manufacturing](https://www.sciencedirect.com/science/article/pii/S0278612522001054)
 
 Before getting started, download dependencies using
 ```
